@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/Contato/contato.css">
+    <link rel="stylesheet" href="/assets/css/rodape.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Piedra&display=swap" rel="stylesheet">
+    <script src="/assets/js/contato/formulario.js"></script>
+
+    <title>Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__imagem" src="/assets/img/banner2.png" alt="banner">
+        <div class="menu">
+                <a class="menu__lista" href="home.html">Home</a>
+                <a class="menu__lista" href="produtos.html">Produtos</a>
+                <a class="menu__lista" href="servicos.html">Serviços</a>
+                <a class="menu__lista" href="contato.html">Contato</a>
+        </div>
+    </header>
+    <main class="formulario">
+        <form class="formulario__principal">
+            <label class="formulario__label" for="nomecompleto">Nome completo</label>
+            <input type="text" id="nomecompleto" class="formulario__input" required>
+
+            <label class="formulario__label" for="email">Email</label>
+            <input type="email" id="email" class="formulario__input" required placeholder="seuemail@dominio.com">
+
+            <label class="formulario__label" for="telegone">Telefone</label>
+            <input type="tel" id="telefone" class="formulario__input" required placeholder="(XX)XXXXX-XXXX">
+
+            <label class="formulario__label"  for="mensagem">Mensagem</label>
+            <textarea cols="65" rows="10" id="mensagem" class="formulario__input" required></textarea>
+            
+            <fieldset>
+                <legend class="formulario__legend">Como Prefere nosso contato?</legend>
+                <label class="formulario__label" for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>                
+
+                <label class="formulario__label" for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+               
+                <label class="formulario__label" for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            </fieldset>
+            
+            <fieldset>
+            <legend class="formulario__legend">Qual horario prefere ser atendido?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </fieldset>
+
+            <label class="formulario__checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+            <input class="formulario__enviar" type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__horario">
+            <h1 class="titulo__horario">Horário de atendimento</h1>
+            <P class="dias__horario">Segunda a sexta</P> 
+            <p class="horario__horario">8h às 20h</p>
+            <P class="dias__horario">Sábados</P> 
+            <p class="horario__horario">8h às 12h</p>
+        </div>
+        <div class="rodape__link">
+            <a class="botao__link" href="https://www.facebook.com/">
+                <img class="imagem__redes" src="/assets/img/icon-facebook.png" alt="Logo facebook">Facebook
+            </a>
+            <a class="botao__link" href="https://www.instagram.com/">
+                <img class="imagem__redes" src="/assets/img/icon-instagram.png" alt="Logo Instagram">Instagram
+            </a>
+            <a class="botao__link" href="https://we.whatsapp.com/">
+                <img class="imagem__redes" src="/assets/img/icon-whatsapp.png" alt="Logo Instagram">Whatsapp
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>

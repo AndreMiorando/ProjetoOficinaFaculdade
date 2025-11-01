@@ -1,0 +1,32 @@
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem 0;
+    text-align: center;
+    
+}
+
+.imagem__produtos {
+    height: 250px;
+    margin-bottom: 2rem;
+    width: 250px;
+}
+
+.titulo__produtos {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.titulo__produtos:hover {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .produtos {
+        flex-direction: column;
+    }
+
+    .titulo__produtos {
+        margin-bottom: 2rem;
+    }
+}

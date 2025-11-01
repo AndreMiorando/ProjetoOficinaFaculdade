@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/rodape.css">
+    <link rel="stylesheet" href="/assets/css/home/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Piedra&display=swap" rel="stylesheet">
+    <script src="/assets/js/home/carrossel.js"></script>
+    <script src="/assets/js/home/topo.js"></script>
+
+    <title>Home</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__imagem" src="/assets/img/banner2.png" alt="banner">
+        <div class="menu">
+                <a class="menu__lista" href="home.html">Home</a>
+                <a class="menu__lista" href="produtos.html">Produtos</a>
+                <a class="menu__lista" href="servicos.html">Serviços</a>
+                <a class="menu__lista" href="contato.html">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="carousel">
+            <div class="carousel__images">
+                <img class="carousel__image" src="/assets/img/sgundo.jpg" alt="Imagem 1">
+                <img class="carousel__image" src="/assets/img/pneus.jpg" alt="Imagem 2" style="display: none;">
+                <img class="carousel__image" src="/assets/img/sgundo.jpg" alt="Imagem 3" style="display: none;">
+            </div>
+            <button class="carousel__button carousel__button--prev">&lt;</button>
+            <button class="carousel__button carousel__button--next">&gt;</button>
+        </div>
+        <h1 class="texto__oficina">Tudo que você precisa para o seu carro, você encontra em nossas lojas.</h1>
+        <section class="corpo">
+            <div class="menu__corpo">
+                <img class="imagem__corpo" src="/assets/img/geomet.jpg" alt="Imagem geometria">
+                <p class="titulo__corpo">Geometria 3D</p>
+                <p class="descricao__corpo">Saiba mais sobre a Geometria 3D</p>
+                <a class="link__corpo" href="https://www.tecfil.com.br/a-geometria-do-carro-preserva-o-veiculo/#:~:text=O%20balanceamento%20%C3%A9%20feito%20nas,consiga%20trafegar%20em%20linha%20reta.">Saiba mais</a>
+            </div>
+            <div class="menu__corpo">
+                <img class="imagem__corpo" src="/assets/img/moura.png " alt=""Bateria moura>
+                <p class="titulo__corpo">Baterias</p>
+                <p class="descricao__corpo">Trabalhamos com a linha de baterias Moura</p>
+                <a class="link__corpo" href="https://mourafacil.moura.com.br/?utm_campaign=%5BRaccoon%5DGoogle_Search_Institucional_RS_Porto-Alegre_Roadmaster_Matriz&utm_source=google&utm_medium=cpc&utm_tiposearch=institucional&gad_source=1&gclid=Cj0KCQjw97SzBhDaARIsAFHXUWBcpmQ0rskZqfmu4m1iIbnmP_FQrVDeZ-52nEQ831NJpW0d3avP8o4aAiFcEALw_wcB">Saiba mais</a>
+            </div>
+            <div class="menu__corpo">
+                <img class="imagem__corpo" src="/assets/img/oleo.jpg" alt="Imagem oleo">
+                <p class="titulo__corpo">Serviços</p>
+                <p class="descricao__corpo">Consulte os nosso serviços</p>
+                <a class="link__corpo" href="servicos.html">Saiba mais</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__horario">
+            <h1 class="titulo__horario">Horário de atendimento</h1>
+            <P class="dias__horario">Segunda a sexta</P> 
+            <p class="horario__horario">8h às 20h</p>
+            <P class="dias__horario">Sábados</P> 
+            <p class="horario__horario">8h às 12h</p>
+        </div>
+        <div class="rodape__link">
+            <a class="botao__link" href="https://www.facebook.com/">
+                <img class="imagem__redes" src="/assets/img/icon-facebook.png" alt="Logo facebook">Facebook
+            </a>
+            <a class="botao__link" href="https://www.instagram.com/">
+                <img class="imagem__redes" src="/assets/img/icon-instagram.png" alt="Logo Instagram">Instagram
+            </a>
+            <a class="botao__link" href="https://we.whatsapp.com/">
+                <img class="imagem__redes" src="/assets/img/icon-whatsapp.png" alt="Logo Instagram">Whatsapp
+            </a>
+        </div>
+    </footer>
+
+    <button class="topo" onclick="voltarAoTopo()" title="Voltar ao topo">Voltar ao topo</button>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.servicos {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem 0;
+    text-align: center;
+}
+
+.imagem__servico {
+    height: 150px;
+    margin-bottom: 1rem;
+    width: 150px;
+}
+
+.titulo__servico {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.titulo__servico:hover {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .servicos__servico {
+        margin: 3rem 0;
+    }
+
+    .servicos {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .titulo__servico {
+        margin-bottom: 2rem;
+    }
+
+
+
+}
